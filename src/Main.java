@@ -1,12 +1,13 @@
-import figures.Square;
-
 public class Main {
     public static void main(String[] args) {
-        Square sq1 = new Square();
-        sq1.setLength(4.85);
-        sq1.printSquareProperties();
-
-        Square sq2 = new Square(3.69);
-        sq2.printSquareProperties();
+       printLine(5);
+       printLine(10);
+       printLine(15);
+    }
+    public static void printLine(int n){
+        for(int i = 0; i < n; i++){
+            System.out.println("* ");
+        }
+        System.out.println(" ");
     }
 }
